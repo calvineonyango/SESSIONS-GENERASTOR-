@@ -6,9 +6,9 @@
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "node Maher-Zubair.js"
+    "start": "node Cobu-Tech.js"
   },
-  "author": "Maher-Zubair",
+  "author": "Cobu-Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
