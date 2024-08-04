@@ -56,8 +56,7 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'COBU-TECH;;;' + b64data });
 
-               let COBU_TECH = `
-
+               let COBU_TECH_TEXT = `
 *𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝*
 *𝐄𝐧𝐣𝐨𝐲❤️*
 *By _©Cobutech 🥷_*
