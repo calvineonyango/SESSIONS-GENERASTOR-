@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function SIGMA_MD_PAIR_CODE() {
+        async function COBU_TECH_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -54,9 +54,9 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'COBU_TECH;;;' + b64data });
 
-               let SIGMA_MD_TEXT = `
+               let COBU_TECH_TEXT = `
     *𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝*
     *𝐄𝐧𝐣𝐨𝐲❤️*
     *By _©Cobutech 🥷_*
@@ -74,11 +74,10 @@ router.get('/', async (req, res) => {
     ║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoVVE2PJW9kGu7RAmlgfqQ
     ║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vadx3PxJ3juvWsDlrN11
     ║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://instagram.com/caelvineobumd
-    ║ < POWERED BY COBU-TECH 
+    ║  > POWERED BY COBU-TECH 
     ╚══════════════╝ 
     ______________________________
-
-
+    
     *Don't Forget To Give Star ⭐ To My Repo*`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
@@ -99,6 +98,6 @@ router.get('/', async (req, res) => {
          }
         }
     }
-    return await SIGMA_MD_PAIR_CODE()
+    return await COBU_TECH_PAIR_CODE()
 });
 module.exports = router
