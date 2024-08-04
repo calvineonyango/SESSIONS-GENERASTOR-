@@ -1,16 +1,11 @@
-# *MADE WITH 🤍 BY MAHER ZUBAIR*
 
 
-## *NOTE*
-- *SESSION ID GENERATOR FOR X-ASENA AND SECKTOR MD BASED BOTS*
-- *IN ORDER TO USE PAIR CODE AND SESSION ID'S YOU HAVE TO USE*
-- *"maher-zubair-baileys": "^6.6.5" OR "@whiskeysockets/baileys": "^6.5.0" IN YOUR BOT*
-- *OTHER-WISE THE PAIR CODE WILL NOT WORK AND NOR SESSIOND ID'S*
-
-
-## *DEPLOYMENT METHODS*
-- ***DEPLOY ON `HEROKU` OR `RENDER` OR ANY PLATFROM YOU LIKE***
-- ***CREATE HEROKU OR RENDER ACCOUNT***
-- ***CREATE NEW APP AND CONNECT YOUR REPOSITORY USING GITHUB***
-- ***THEN DEPLOY THE REPO AND BOOM 💥***
-- ***DON'T FORGOT TO STAR THE REPO***
+****
+# <h1 align="center"> *SESSION ID GENERATOR* 
+<p align="center">  
+  
+***
+  
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=2AAHBTUF&center=true&width=910&height=100&lines=WELCOME+TO+MY;SETION+ID+GENERATOR;FELL+FREE+WITH+COBU-TECH;HEADED+BY+ÇÆLVÏÑË+ØBÜ-TECH" alt="Typing SVG" />
+  </p>
+    <img alt="COBU-TECH-FACTORY" width="500" height="400" src="https://telegra.ph/file/fbf83036f0db0ba1e9b32.jpg">
