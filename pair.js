@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'COBU-TECH;;;' + b64data });
 
                let COBU_TECH = `
 
@@ -69,15 +69,14 @@ ______________________________
 ╚══════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❍ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: 
-║❍ 𝐎𝐰𝐧𝐞𝐫: _
-║❍ 𝐑𝐞𝐩𝐨: _
-║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _
-║ ☬ ☬ ☬ ☬
+║❍ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: https://www.youtube.com/@calvineobumdtech
+║❍ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254796281776
+║❍ 𝐑𝐞𝐩𝐨: _https://github.com/calvineonyango/COBU-TECH-FACTORY-
+║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoVVE2PJW9kGu7RAmlgfqQ
+║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vadx3PxJ3juvWsDlrN11
+║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://instagram.com/caelvineobumd
+║ < POWERED BY COBU-TECH 
 ╚══════════════╝ 
- 𒂀 𝐊𝐄𝐈𝐓𝐇 𝐌𝐃
 ______________________________
 
 
