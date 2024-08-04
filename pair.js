@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
                 },
                 printQRInTerminal: false,
                 logger: pino({level: "fatal"}).child({level: "fatal"}),
-                browser: ["Chrome (Linux)", "", ""]
+                browser: ["Chrome (Cobutech)", "", ""]
              });
              if(!Pair_Code_By_Maher_Zubair.authState.creds.registered) {
                 await delay(1500);
@@ -59,7 +59,7 @@ router.get('/', async (req, res) => {
                let SIGMA_MD_TEXT = `
     *𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝*
     *𝐄𝐧𝐣𝐨𝐲❤️*
-    *By _©Cobutech 🥷_*
+    *By _©Cobutech 🥷🥷🥷_*
     ______________________________
     ╔════◇
     ║『 YOU'VE CHOSEN COBU-TECH  』
