@@ -54,9 +54,9 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'COBU-TECH;;;' + b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
 
-               let SIDMA_MD_TEXT = `
+               let SIGMA_MD_TEXT = `
     *𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝*
     *𝐄𝐧𝐣𝐨𝐲❤️*
     *By _©Cobutech 🥷_*
@@ -79,7 +79,7 @@ router.get('/', async (req, res) => {
     ______________________________
 
 
-*Don't Forget To Give Star ⭐ To My Repo*`
+    *Don't Forget To Give Star ⭐ To My Repo*`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
