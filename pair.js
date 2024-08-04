@@ -56,11 +56,32 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
 
-               let SIGMA_MD_TEXT = `
-*_Pair Code By Maher Zubair_*
-*_Made With 🤍_*
+               let COBU_TECH = `
 
-_Don't Forget To Give Star To My Repo_`
+*𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝*
+*𝐄𝐧𝐣𝐨𝐲❤️*
+*By _©Cobutech 🥷_*
+______________________________
+╔════◇
+║『 YOU'VE CHOSEN COBU-TECH  』
+║ You've Completed the First Step
+║ to Deploy a Whatsapp Bot.
+╚══════════════╝
+╔═════◇
+║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❍ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: 
+║❍ 𝐎𝐰𝐧𝐞𝐫: _
+║❍ 𝐑𝐞𝐩𝐨: _
+║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _
+║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _
+║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _
+║ ☬ ☬ ☬ ☬
+╚══════════════╝ 
+ 𒂀 𝐊𝐄𝐈𝐓𝐇 𝐌𝐃
+______________________________
+
+
+_Don't Forget To Give Star ⭐ To My Repo_`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
