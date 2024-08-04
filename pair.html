@@ -144,11 +144,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">Link with Phone Number</h3>
+            <h3 class="centered-text">COBU-TECH SESSIONS😌😌</h3>
+            <h5 class="centered-text">POWERED BY COBU-TECH</h5>
             <br>
             <h6>Enter your number with a country code.</h6>
             <div class="input-container">
-              <input placeholder="921234567xxx" type="number" id="number" placeholder="Enter your phone number with a country code" name="">
+              <input placeholder="254796281776" type="number" id="number" placeholder="Enter your phone number with a country code" name="">
               <button id="submit">Submit</button>
             </div>
             
@@ -186,13 +187,13 @@
       e.preventDefault();
       if (!c.value) {
         a.innerHTML = '<a style="color:white;font-weight:bold">Enter your WhatsApp number with a country code</a><br><br>';
-      } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
+      } else if (c.value.replace(/[^254796281776]/g, "").length < 11) {
         a.innerHTML = '<a style="color:red;font-weight:bold">Invalid number</a><br><br>';
       } else {
-        const Maher_Zubair = c.value.replace(/[^0-9]/g, "");
+        const Cobu_Tech = c.value.replace(/[^0-9]/g, "");
         let bb = "";
         let bbc = "";
-        const cc = Maher_Zubair.split('');
+        const cc = Cobu_Tech.split('');
         cc.map(a => {
           bbc += a;
           if (bbc.length == 3) {
@@ -205,9 +206,9 @@
         });
         c.type = "text";
         c.value = "+" + bb;
-        c.style = "color:black;font-size:20px";
+        c.style = "color:darkgreen;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please wait for some time</a><br><br>';
-        let { data } = await axios(`/code?number=${Maher_Zubair}`);
+        let { data } = await axios(`/code?number=${Cobu_Tech}`);
         let code = data.code || "Service Unavailable";
         a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
